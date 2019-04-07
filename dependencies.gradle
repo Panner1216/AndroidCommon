@@ -1,0 +1,12 @@
+ext {
+    minSdkVersion = 21
+    targetSdkVersion = 28
+    compileSdkVersion = 28
+    buildToolsVersion = '28.0.1'
+    versionName = '1.0.0'
+    versionCode = 1
+}
+//共用的依赖库
+def support = '28.0.1'
+ext.deps = [
+]
