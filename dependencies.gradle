@@ -7,6 +7,14 @@ ext {
     versionCode = 1
 }
 //共用的依赖库
-def support = '28.0.1'
+def support = '28.0.0'
 ext.deps = [
+        junit              : 'junit:junit:4.12',
+        supportv4          : "com.android.support:support-v4:$support",
+        appcompatv7        : "com.android.support:appcompat-v7:$support",
+        support_annotations: "com.android.support:support-annotations:$support",
+        recyclerviewv7     : "com.android.support:recyclerview-v7:$support",
+        cardviewv7         : "com.android.support:cardview-v7:$support",
+        design             : "com.android.support:design:$support",
+        logger             : 'com.orhanobut:logger:2.2.0'
 ]
