@@ -5,19 +5,21 @@ import android.support.v7.widget.AppCompatEditText;
 import android.util.AttributeSet;
 
 /**
+ * 右侧可操作的edittext
+ *
  * @author Panner
  * @version 2019-04-07-22:40
  */
-public class RightClearEditext extends AppCompatEditText {
-    public RightClearEditext(Context context) {
+public class RightClearEditText extends AppCompatEditText {
+    public RightClearEditText(Context context) {
         super(context);
     }
 
-    public RightClearEditext(Context context, AttributeSet attrs) {
+    public RightClearEditText(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public RightClearEditext(Context context, AttributeSet attrs, int defStyleAttr) {
+    public RightClearEditText(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 }
