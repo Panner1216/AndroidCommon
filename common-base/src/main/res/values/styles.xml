@@ -1,0 +1,4 @@
+<resources>
+    <!--去按钮阴影-->
+    <style name="RemoveButtonShadow" parent="@style/Widget.AppCompat.Button.Borderless" />
+</resources>

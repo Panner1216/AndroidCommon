@@ -8,4 +8,8 @@
     <string name="common_edit">Edit</string>
     <string name="common_back">Back</string>
     <string name="common_next">Next</string>
+    <string name="common_cancel">Cancel</string>
+
+    <string name="str_open_photo">Choose Photo</string>
+    <string name="str_open_camera">Take Photo</string>
 </resources>

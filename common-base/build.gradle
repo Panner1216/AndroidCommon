@@ -30,7 +30,9 @@ dependencies {
 
     implementation deps.appcompatv7
     testImplementation deps.junit
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation deps.logger
+    implementation deps.rxpaparazzo
+    implementation deps.dialogplus
+    implementation deps.rxandroid
 }
