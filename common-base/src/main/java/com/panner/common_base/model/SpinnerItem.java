@@ -3,8 +3,8 @@ package com.panner.common_base.model;
 /**
  * Spinner 数据
  *
- * @author liaoheng
- * @version 2015年9月22日
+ * @author panzhijie
+ * @version 2018-07-21 19:55
  */
 public class SpinnerItem {
     private String name;

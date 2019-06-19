@@ -29,8 +29,8 @@ import static android.app.Activity.RESULT_OK;
 /**
  * 图片选择
  *
- * @author liaoheng
- * @version 2016-08-19 14:40
+ * @author panzhijie
+ * @version 2019-06-19 14:40
  */
 public class TakeImagesHelper {
     private List<SpinnerItem> items;

@@ -7,8 +7,8 @@ import com.panner.common_base.utils.LogUtils;
 
 /**
  * 通用回调
- * @author liaoheng
- * @version 2015-07-21 19:55
+ * @author panzhijie
+ * @version 2018-07-21 19:55
  */
 public interface Callback<T>  {
     /**
