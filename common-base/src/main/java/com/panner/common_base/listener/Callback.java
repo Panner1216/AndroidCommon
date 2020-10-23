@@ -1,6 +1,7 @@
 package com.panner.common_base.listener;
 
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 
 import com.panner.common_base.exception.SystemException;
 import com.panner.common_base.utils.LogUtils;

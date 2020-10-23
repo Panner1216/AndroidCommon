@@ -4,7 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
-import android.support.v4.content.SharedPreferencesCompat;
+import androidx.core.content.SharedPreferencesCompat;
 
 import java.util.Map;
 

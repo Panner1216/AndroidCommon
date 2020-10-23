@@ -1,8 +1,9 @@
 package com.panner.common_plus.view;
 
 import android.content.Context;
-import android.support.v7.widget.AppCompatEditText;
 import android.util.AttributeSet;
+
+import androidx.appcompat.widget.AppCompatEditText;
 
 /**
  * 右侧可操作的edittext

@@ -1,10 +1,11 @@
 package com.panner.common_base.ui;
 
 import android.os.Bundle;
-import android.support.annotation.CallSuper;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.FrameLayout;
+
+import androidx.annotation.CallSuper;
 
 /**
  * <h1>懒加载Fragment</h1> 只有创建并显示的时候才会调用onCreateViewLazy方法<br>
