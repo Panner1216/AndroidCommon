@@ -1,9 +1,8 @@
 package com.panner.common_base.ui;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentActivity;
-
 import android.view.MenuItem;
+import androidx.fragment.app.FragmentActivity;
+import com.trello.rxlifecycle4.components.support.RxAppCompatActivity;
 
 /**
  * 基础通用的activity
@@ -11,7 +10,7 @@ import android.view.MenuItem;
  * @author Panner
  * @version 2019-04-07-22:39
  */
-public class BaseActivity extends AppCompatActivity {
+public class BaseActivity extends RxAppCompatActivity {
 
     private final String TAG = getActivity().getClass().getSimpleName();
 

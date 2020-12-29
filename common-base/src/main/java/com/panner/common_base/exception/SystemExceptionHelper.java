@@ -5,7 +5,7 @@ import com.panner.common_base.listener.ISystemException;
 import com.panner.common_base.listener.SystemExceptionNoVessel;
 
 /**
- * @author liaoheng
+ * @author Panner
  * @version 2016-07-26 15:00
  */
 public class SystemExceptionHelper {

@@ -24,12 +24,15 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':common-core')
+    api fileTree(dir: 'libs', include: ['*.jar'])
+//    implementation project(':common-core')
 
-    implementation deps.appcompatv7
-    implementation deps.logger
-    implementation deps.rxpaparazzo
-    implementation deps.dialogplus
-    implementation deps.rxandroid
+    api deps.androidx_suport
+    api deps.logger
+    api deps.rxpaparazzo
+    api deps.dialogplus
+    api deps.rxandroid
+    api deps.rxlife
+    api deps.rxlifecycle_android
+    api deps.rxlifecycle_components
 }

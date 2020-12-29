@@ -72,7 +72,7 @@ public interface Callback<T>  {
 
     /**
      * 对于onSuccess与onError打印日志
-     * @author liaoheng
+     * @author Panner
      * @version 2015年9月16日
      */
     class LogEmptyCallback<T> implements Callback<T> {

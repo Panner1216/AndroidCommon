@@ -9,13 +9,15 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.trello.rxlifecycle4.components.support.RxFragment;
+
 /**
  * 基础通用的fragment
  *
  * @author Panner
  * @version 2019-04-07-22:39
  */
-public class BaseFragment extends Fragment {
+public class BaseFragment extends RxFragment {
     private final String TAG = getFragment().getClass().getSimpleName();
     protected LayoutInflater mInflater;
     private View mContentView;

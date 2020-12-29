@@ -18,8 +18,8 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':common-base')
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation deps.appcompatv7
+//    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':common-plus')
+//    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+//    implementation deps.appcompatv7
 }

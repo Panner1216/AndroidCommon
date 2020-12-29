@@ -6,7 +6,7 @@ import com.panner.common_base.listener.SystemExceptionNoVessel;
 /**
  * 自定异常，带内容，不被过滤
  *
- * @author liaoheng
+ * @author Panner
  * @version 2016-10-12 17:09
  */
 @SystemExceptionNoVessel

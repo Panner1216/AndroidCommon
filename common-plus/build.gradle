@@ -24,7 +24,5 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-
-    implementation deps.appcompatv7
+    api project(':common-core')
 }

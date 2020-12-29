@@ -6,7 +6,7 @@ import com.panner.common_base.listener.ISystemException;
 /**
  * 自定异常
  *
- * @author liaoheng
+ * @author Panner
  * @version 2015-07-21 20:06:58
  */
 public class SystemException extends Exception implements ISystemException {
